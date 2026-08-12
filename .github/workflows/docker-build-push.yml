@@ -28,4 +28,4 @@ jobs:
           push: true
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME }}/simple-java-app:${{ github.ref_name }}
-            ${{ secrets.DOCKERHUB_USER }}/simple-java-app:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/simple-java-app:latest
