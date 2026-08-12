@@ -1,0 +1,5 @@
+services:
+  web:
+    image: simple-java-app:latest 
+    ports:
+      - 5002:5002
